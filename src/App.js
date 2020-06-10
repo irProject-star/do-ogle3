@@ -1,24 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
+import ButtonAppBar  from './Components/header/Header.Components';
+import SearchPage from './Pages/searchPage/SearchPage.Components';
+import {  createMuiTheme,ThemeProvider } from '@material-ui/core/styles';
+import DataAddAndDelete from './Pages/dataAddAndDelete/DataAddAndDelete.Components';
+import {Route,Switch} from  'react-router-dom';
 import './App.css';
+
+
+const theme = createMuiTheme({
+  overrides: {
+    // Style sheet name
+    MuiAppBar: {
+      // Name of the rule
+      colorPrimary: {
+        // Some CSS
+        color:'black',
+        backgroundColor: '#fffafa',
+      },
+    },
+  },
+});
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeProvider theme={theme}>
+        <ButtonAppBar />
+          <Switch>
+             <Route exact path='/' component={SearchPage} /> 
+             <Route exact path='/Data' component={DataAddAndDelete} /> 
+          </Switch> 
+      </ThemeProvider>        
     </div>
   );
 }
