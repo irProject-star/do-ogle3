@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 }))
 const fetchData=(allData,setAllData,setShowDataClicked)=>{
     setShowDataClicked(false);
-    fetch('http://irproject2020.pythonanywhere.com/query-all')
+    fetch('https://irproject2020.pythonanywhere.com/query-all')
     .then(res=>{return res.json()})
     .then(data=>{console.log(data);setAllData(data)});
 }

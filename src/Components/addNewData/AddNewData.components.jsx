@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 const addData=(question,answer,setQuestion,setAnswer)=>event=>{
     event.preventDefault();
-    const  url="http://irproject2020.pythonanywhere.com/addQuestion";
+    const  url="https://irproject2020.pythonanywhere.com/addQuestion";
 
      fetch(url,
      {

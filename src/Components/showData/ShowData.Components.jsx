@@ -47,7 +47,7 @@ const delelteitem=(id,history)=>{
       striID+=id[i];
   const intId=parseInt(striID,10);
 
-  const url='http://irproject2020.pythonanywhere.com/removedata';
+  const url='https://irproject2020.pythonanywhere.com/removedata';
   fetch(url,   {
     method: "POST",
     headers: {

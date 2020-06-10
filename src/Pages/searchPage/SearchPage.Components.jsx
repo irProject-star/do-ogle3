@@ -11,7 +11,7 @@ class SearchPage extends React.Component{
     searchResult=()=>{
        
         this.getStripDate();
-        const  url="http://irproject2020.pythonanywhere.com/"+this.props.algorithm;
+        const  url="https://irproject2020.pythonanywhere.com/"+this.props.algorithm;
        console.log(url);
        
        this.props.switchSearchClick({searchClick:false});
@@ -34,7 +34,7 @@ class SearchPage extends React.Component{
              })    
     }
     getStripDate=()=>{
-        const  url="http://irproject2020.pythonanywhere.com/stripdata";
+        const  url="https://irproject2020.pythonanywhere.com/stripdata";
         this.props.switchSearchClick({searchClick:false});
         fetch(url,
         {
