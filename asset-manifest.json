@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/do-ogle3/static/css/main.eab24d3c.chunk.css",
+    "main.js": "/do-ogle3/static/js/main.a7b39b97.chunk.js",
+    "main.js.map": "/do-ogle3/static/js/main.a7b39b97.chunk.js.map",
+    "runtime-main.js": "/do-ogle3/static/js/runtime-main.e338e4f4.js",
+    "runtime-main.js.map": "/do-ogle3/static/js/runtime-main.e338e4f4.js.map",
+    "static/js/2.94ff3d9a.chunk.js": "/do-ogle3/static/js/2.94ff3d9a.chunk.js",
+    "static/js/2.94ff3d9a.chunk.js.map": "/do-ogle3/static/js/2.94ff3d9a.chunk.js.map",
+    "index.html": "/do-ogle3/index.html",
+    "precache-manifest.d3893781ddaeed04286778f7b3a57c24.js": "/do-ogle3/precache-manifest.d3893781ddaeed04286778f7b3a57c24.js",
+    "service-worker.js": "/do-ogle3/service-worker.js",
+    "static/css/main.eab24d3c.chunk.css.map": "/do-ogle3/static/css/main.eab24d3c.chunk.css.map",
+    "static/js/2.94ff3d9a.chunk.js.LICENSE.txt": "/do-ogle3/static/js/2.94ff3d9a.chunk.js.LICENSE.txt",
+    "static/media/Logo.png": "/do-ogle3/static/media/Logo.d78fd1bd.png",
+    "static/media/main.png": "/do-ogle3/static/media/main.10e18933.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e338e4f4.js",
+    "static/js/2.94ff3d9a.chunk.js",
+    "static/css/main.eab24d3c.chunk.css",
+    "static/js/main.a7b39b97.chunk.js"
+  ]
+}
